@@ -1,12 +1,26 @@
-# Startpage
+# startpage
 
-[Live Preview](https://kencx.github.io/startpage/)
+Custom browser startpage based with colors inspired by the [One Dark syntax theme](https://github.com/atom/atom/tree/master/packages/one-dark-syntax) for the [Atom text editor](https://atom.io).
 
-Feel free to fork and make your own changes!
+Forked from https://github.com/kencx/startpage.git and added time module and changed the colorscheme.
 
-- Font: Fira Code
-- Colorscheme: Gruvbox Dark
-- Cat Gif: [Here](https://twitter.com/avogado6/status/1165595520967954432?s=19)
+## Preview
+![preview](images/preview.png)
 
-![startpage](startpage.gif)
+## Usage
+- Clone this repo or download the `.zip`
+- Go to browser settings and choose custom homepage
+- Copy and paste the file path the `index.html` file
 
+## Modifying
+Change the:
+- _timezone_ in line 5 in `script.js`
+- _locale_ in line 13 in `script.js`
+- _font_ in line 12 in `styles.css`
+- _links_ in `index.html`
+- _colors_ in `styles.css`
+  - Color reference:
+  
+![Color Reference](https://raw.githubusercontent.com/joshdick/onedark.vim/main/img/color_reference.png)
+
+- _picture_ in `index.html` from the [cat gif](https://twitter.com/avogado6/status/1165595520967954432?s=19)
