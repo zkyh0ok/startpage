@@ -34,7 +34,7 @@ html, body {
 
 .right-container {
   grid-area: right;
-  height: 50%;
+  height: 55%;
   width: 100%;
 }
 
@@ -47,8 +47,8 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 40px;
-  padding-top: 60px;
+  font-size: 90px;
+  font-weight: 500;
 }
 
 .category {
