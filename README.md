@@ -1,6 +1,6 @@
 # startpage
 
-Custom browser startpage based with colors inspired by the [One Dark syntax theme](https://github.com/atom/atom/tree/master/packages/one-dark-syntax) for the [Atom text editor](https://atom.io).
+Custom browser startpage with colors inspired by the [One Dark syntax theme](https://github.com/atom/atom/tree/master/packages/one-dark-syntax) for the [Atom text editor](https://atom.io).
 
 Forked from https://github.com/kencx/startpage.git and added time module and changed the colorscheme.
 
@@ -10,7 +10,7 @@ Forked from https://github.com/kencx/startpage.git and added time module and cha
 ## Usage
 - Clone this repo or download the `.zip`
 - Go to browser settings and choose custom homepage
-- Copy and paste the file path the `index.html` file
+- Copy and paste the file path to the `index.html` file
 
 ## Modifying
 Change the:
