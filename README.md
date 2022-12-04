@@ -5,6 +5,7 @@ Custom browser startpage with colors inspired by the [One Dark syntax theme](htt
 Forked from https://github.com/kencx/startpage.git and added time module and changed the colorscheme.
 
 ## Preview
+[Live Preview](https://michaelneuper.github.io/startpage/)
 ![preview](images/preview.png)
 
 ## Usage
