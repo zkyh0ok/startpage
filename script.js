@@ -2,14 +2,24 @@
 
 // display time as hh:mm
 const options = {
-    timeZone:"America/Chicago",
+    timeZone : Intl.DateTimeFormat().resolvedOptions().timeZone, // Automatically get user's timezone
     hour12 : false,
     hour:  "2-digit",
     minute: "2-digit",
 }
 
-var today = new Date();
+const locale = navigator.languages != undefined ? navigator.languages[0] : navigator.language; // Get user's locale to format clock accordingly
 
-var time = today.toLocaleTimeString("en-US", options);
+myTimer(); // Initialise clock otherwise you wait a second before it appears
 
-document.getElementById("time").textContent = time;
+var myVar = setInterval(function () {
+    myTimer();
+  }, 1000);
+
+function myTimer() {
+    var today = new Date();
+
+    var time = today.toLocaleTimeString(locale, options);
+
+    document.getElementById("time").textContent = time;
+}
