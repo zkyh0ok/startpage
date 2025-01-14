@@ -8,7 +8,7 @@
   "theme_color": "#282c34",
   "icons": [
     {
-      "src": "images\arch-logo-od.png",
+      "src": "images/arch-logo-od.png",
       "sizes": "512x512",
       "type": "image/png"
     }
