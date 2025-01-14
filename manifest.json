@@ -1,16 +1,9 @@
 {
+  "manifest_version": 3,  // Versión obligatoria del manifiesto
   "name": "new tab aesthetic",
-  "short_name": "tab",
+  "version": "1.0",
   "description": "a new tab app",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#282c34",
-  "theme_color": "#282c34",
-  "icons": [
-    {
-      "src": "images/arch-logo-od.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
-}
+  "permissions": [], 
+  "background": {
+    "service_worker": "background.js" // Archivo para la lógica de fondo
+     }
