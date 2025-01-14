@@ -1,9 +1,9 @@
 {
-  "manifest_version": 3,  // Versión obligatoria del manifiesto
+  "manifest_version": 3, 
   "name": "new tab aesthetic",
   "version": "1.0",
   "description": "a new tab app",
   "permissions": [], 
   "background": {
-    "service_worker": "background.js" // Archivo para la lógica de fondo
+    "service_worker": "background.js"
      }
