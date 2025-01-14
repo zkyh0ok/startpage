@@ -8,7 +8,7 @@
   "theme_color": "#282c34",
   "icons": [
     {
-      "src": "C:\Users\zombi\Downloads\otros\ant\startpage-master\startpage-master\images\arch-logo-od.png",
+      "src": "images\arch-logo-od.png",
       "sizes": "512x512",
       "type": "image/png"
     }
