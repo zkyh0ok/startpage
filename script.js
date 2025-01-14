@@ -2,7 +2,7 @@
 
 // display time as hh:mm
 const options = {
-    timeZone : Intl.DateTimeFormat().resolvedOptions().timeZone, // Automatically get user's timezone
+    timeZone: 'America/Argentina/Buenos_Aires', // Set Argentina time zone
     hour12 : false,
     hour:  "2-digit",
     minute: "2-digit",
