@@ -3,7 +3,5 @@
   "name": "new tab aesthetic",
   "version": "1.0",
   "description": "a new tab app",
-  "permissions": [], 
-  "background": {
     "service_worker": "background.js"
-     }
+ }
