@@ -1,0 +1,16 @@
+{
+  "name": "new tab aesthetic",
+  "short_name": "tab",
+  "description": "a new tab app",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#282c34",
+  "theme_color": "#282c34",
+  "icons": [
+    {
+      "src": "C:\Users\zombi\Downloads\otros\ant\startpage-master\startpage-master\images\arch-logo-od.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
