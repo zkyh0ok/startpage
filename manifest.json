@@ -2,7 +2,7 @@
   "manifest_version": 3, 
   "name": "new tab aesthetic",
   "version": "1.0",
-  "description": "a new tab app",
+  "description": "a new tab app"
     "chrome_url_overrides": {
     "newtab": "index.html"
  }
