@@ -4,8 +4,8 @@
     --color-bg: #282c34;
     --color-fg: #c678dd;
     --color-link: #abb2bf;
-    --color-link-visited: #56b6c2;
-    --color-link-hover: #61afef;
+    --color-link-visited: #61afef;
+    --color-link-hover: #e5c07b;
 }
 
 html, body {
