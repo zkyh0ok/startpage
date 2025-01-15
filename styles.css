@@ -2,10 +2,10 @@
 
 :root {
     --color-bg: #282c34;
-    --color-fg: #c678dd;
+    --color-fg: #e5c07b;
     --color-link: #abb2bf;
-    --color-link-visited: #61afef;
-    --color-link-hover: #e5c07b;
+    --color-link-visited: #98c379;
+    --color-link-hover: #e06c75;
 }
 
 html, body {
