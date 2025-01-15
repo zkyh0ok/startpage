@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=JetBrains+Mono');
 
 :root {
-    --color-bg: #282c34;
-    --color-fg: #e5c07b;
+    --color-bg: #222222;
+    --color-fg: #ff5349;
     --color-link: #abb2bf;
-    --color-link-visited: #98c379;
-    --color-link-hover: #e06c75;
+    --color-link-visited: #e06c75;
+    --color-link-hover: #228b22;
 }
 
 html, body {
